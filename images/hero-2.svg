@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a6741"/>
+      <stop offset="40%" stop-color="#6b8f5e"/>
+      <stop offset="70%" stop-color="#8fa882"/>
+      <stop offset="100%" stop-color="#b0c4a0"/>
+    </linearGradient>
+    <linearGradient id="ground2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b5a3e"/>
+      <stop offset="50%" stop-color="#5a4830"/>
+      <stop offset="100%" stop-color="#3d3020"/>
+    </linearGradient>
+    <linearGradient id="metal2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a5040"/>
+      <stop offset="50%" stop-color="#4a4030"/>
+      <stop offset="100%" stop-color="#3a3020"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="1920" height="1080" fill="url(#sky2)"/>
+  <!-- Overcast atmosphere -->
+  <rect width="1920" height="400" fill="#7a9a70" opacity="0.3"/>
+  <!-- Far tree line left -->
+  <path d="M0,350 l20,-50 l15,35 l25,-60 l18,45 l22,-55 l15,40 l28,-65 l20,50 l18,-45 l25,30 l15,-55 l22,40 l28,-60 l20,50 l15,-45 l25,30 l18,-55 l22,40 l28,-65 l15,50 l20,-45 l25,30 l18,-50 l22,35 l15,-55 l28,45 l20,-60 l18,40 l25,-50 l22,35 l15,-55 l28,45 l20,-40 l18,25 L750,380 L750,500 L0,500Z" fill="#2a4a25" opacity="0.6"/>
+  <!-- Far tree line right -->
+  <path d="M1170,380 l20,-50 l15,35 l25,-60 l18,45 l22,-55 l15,40 l28,-65 l20,50 l18,-45 l25,30 l15,-55 l22,40 l28,-60 l20,50 l15,-45 l25,30 l18,-55 l22,40 l28,-65 l15,50 l20,-45 l25,30 l18,-50 l22,35 l15,-55 l28,45 L1920,350 L1920,500 L1170,500Z" fill="#2a4a25" opacity="0.6"/>
+  <!-- Mid forest left -->
+  <path d="M0,420 l15,-80 l12,55 l20,-90 l15,70 l18,-85 l12,60 l22,-95 l18,75 l15,-80 l20,55 l12,-70 l18,50 l22,-85 l15,65 l20,-90 l12,70 l18,-80 l22,60 l15,-75 l12,50 L420,450 L420,600 L0,600Z" fill="#1e3a1a"/>
+  <!-- Mid forest right -->
+  <path d="M1500,450 l15,-80 l12,55 l20,-90 l15,70 l18,-85 l12,60 l22,-95 l18,75 l15,-80 l20,55 l12,-70 l18,50 l22,-85 l15,65 l20,-90 l12,70 L1920,420 L1920,600 L1500,600Z" fill="#1e3a1a"/>
+  <!-- Near forest left -->
+  <path d="M0,480 l12,-100 l10,70 l15,-110 l12,85 l14,-100 l10,75 l18,-115 l14,90 l12,-95 l15,65 l10,-85 l14,60 l18,-105 l12,80 l15,-110 l10,85 l14,-100 l18,75 L300,500 L300,700 L0,700Z" fill="#122e10"/>
+  <!-- Near forest right -->
+  <path d="M1620,500 l12,-100 l10,70 l15,-110 l12,85 l14,-100 l10,75 l18,-115 l14,90 l12,-95 l15,65 l10,-85 l14,60 l18,-105 l12,80 L1920,480 L1920,700 L1620,700Z" fill="#122e10"/>
+  <!-- Ground / road surface -->
+  <path d="M0,600 Q300,550 500,560 Q700,570 960,580 Q1200,570 1400,560 Q1650,550 1920,600 L1920,1080 L0,1080Z" fill="url(#ground2)"/>
+  <!-- Road bed -->
+  <path d="M300,600 Q500,570 700,575 Q900,580 960,582 Q1050,580 1200,575 Q1400,570 1620,600 L1620,700 Q1400,680 1200,675 Q1000,672 960,672 Q900,672 700,675 Q500,680 300,700Z" fill="#7a6a50"/>
+  <!-- Gravel texture lines -->
+  <line x1="350" y1="620" x2="1570" y2="620" stroke="#8a7a60" stroke-width="1" opacity="0.4"/>
+  <line x1="320" y1="650" x2="1600" y2="650" stroke="#8a7a60" stroke-width="1" opacity="0.3"/>
+  <line x1="310" y1="680" x2="1610" y2="680" stroke="#6a5a40" stroke-width="1" opacity="0.3"/>
+  <!-- Excavator body -->
+  <!-- Tracks -->
+  <rect x="780" y="640" width="280" height="50" rx="20" fill="#2a2520"/>
+  <rect x="790" y="645" width="260" height="40" rx="16" fill="#3a3530" stroke="#2a2520" stroke-width="2"/>
+  <!-- Track details -->
+  <line x1="810" y1="645" x2="810" y2="685" stroke="#2a2520" stroke-width="3"/>
+  <line x1="840" y1="645" x2="840" y2="685" stroke="#2a2520" stroke-width="3"/>
+  <line x1="870" y1="645" x2="870" y2="685" stroke="#2a2520" stroke-width="3"/>
+  <line x1="900" y1="645" x2="900" y2="685" stroke="#2a2520" stroke-width="3"/>
+  <line x1="930" y1="645" x2="930" y2="685" stroke="#2a2520" stroke-width="3"/>
+  <line x1="960" y1="645" x2="960" y2="685" stroke="#2a2520" stroke-width="3"/>
+  <line x1="990" y1="645" x2="990" y2="685" stroke="#2a2520" stroke-width="3"/>
+  <line x1="1020" y1="645" x2="1020" y2="685" stroke="#2a2520" stroke-width="3"/>
+  <!-- Turntable base -->
+  <rect x="840" y="590" width="180" height="55" rx="5" fill="#c8a020"/>
+  <!-- Cab -->
+  <rect x="920" y="530" width="100" height="65" rx="4" fill="#c8a020"/>
+  <rect x="925" y="535" width="50" height="40" rx="2" fill="#6a8a9a" opacity="0.7"/>
+  <!-- Cab roof -->
+  <rect x="915" y="522" width="110" height="12" rx="2" fill="#b89018"/>
+  <!-- Engine housing -->
+  <rect x="840" y="555" width="85" height="40" rx="3" fill="#b89018"/>
+  <rect x="845" y="558" width="10" height="8" rx="1" fill="#2a2520"/>
+  <rect x="860" y="558" width="10" height="8" rx="1" fill="#2a2520"/>
+  <!-- Boom (arm) -->
+  <path d="M920,560 L920,555 L680,420 L675,428Z" fill="#c8a020" stroke="#b89018" stroke-width="1"/>
+  <!-- Stick (second arm segment) -->
+  <path d="M680,420 L675,428 L550,520 L545,514Z" fill="#c8a020" stroke="#b89018" stroke-width="1"/>
+  <!-- Bucket -->
+  <path d="M545,514 L550,520 L520,560 L480,570 L470,555 L500,530 L530,510Z" fill="#3a3530"/>
+  <!-- Bucket teeth -->
+  <path d="M480,570 L475,585 L485,585 L490,570" fill="#5a5550"/>
+  <path d="M490,568 L485,583 L495,583 L500,568" fill="#5a5550"/>
+  <path d="M500,565 L495,580 L505,580 L510,565" fill="#5a5550"/>
+  <!-- Hydraulic cylinders -->
+  <line x1="900" y1="575" x2="760" y2="450" stroke="#6a6560" stroke-width="6"/>
+  <line x1="700" y1="430" x2="600" y2="490" stroke="#6a6560" stroke-width="4"/>
+  <!-- Pivot points -->
+  <circle cx="920" cy="558" r="6" fill="#4a4540"/>
+  <circle cx="678" cy="424" r="5" fill="#4a4540"/>
+  <circle cx="548" cy="517" r="4" fill="#4a4540"/>
+  <!-- Dirt pile being moved -->
+  <path d="M420,570 Q450,530 500,540 Q530,520 560,555 Q580,545 600,570 L600,600 Q550,590 500,595 Q450,590 420,600Z" fill="#7a6040"/>
+  <path d="M430,580 Q460,560 500,565 Q530,555 550,575" stroke="#8a7050" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Foreground earth/dirt -->
+  <path d="M0,750 Q200,730 400,740 Q600,750 800,745 Q1000,738 1200,742 Q1400,748 1600,740 Q1800,735 1920,750 L1920,1080 L0,1080Z" fill="#4a3820"/>
+  <!-- Scattered rocks foreground -->
+  <ellipse cx="200" cy="800" rx="25" ry="12" fill="#5a4a35"/>
+  <ellipse cx="350" cy="820" rx="18" ry="9" fill="#5a4a35"/>
+  <ellipse cx="600" cy="790" rx="20" ry="10" fill="#5a4a35"/>
+  <ellipse cx="1400" cy="810" rx="22" ry="11" fill="#5a4a35"/>
+  <ellipse cx="1650" cy="795" rx="15" ry="8" fill="#5a4a35"/>
+  <!-- Atmosphere overlay -->
+  <rect width="1920" height="1080" fill="#4a6741" opacity="0.08"/>
+</svg>

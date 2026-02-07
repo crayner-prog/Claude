@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="p3sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a6a7a"/>
+      <stop offset="60%" stop-color="#7a8a8a"/>
+      <stop offset="100%" stop-color="#8a9a8a"/>
+    </linearGradient>
+    <linearGradient id="p3water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a6a7a"/>
+      <stop offset="50%" stop-color="#3a5a6a"/>
+      <stop offset="100%" stop-color="#2a4a5a"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#p3sky)"/>
+  <!-- Distant forest -->
+  <path d="M0,180 l10,-40 l8,28 l12,-45 l10,35 l8,-38 l12,26 l10,-42 l8,32 l12,-40 l10,28 l8,-35 l12,24 l10,-40 l8,30 l12,-38 l10,26 l8,-42 l12,32 l10,-36 l8,25 l12,-40 l10,30 l8,-35 l12,24 l10,-40 l8,28 l12,-38 l10,26 l8,-42 l12,32 l10,-36 l8,25 l12,-40 l10,30 l8,-35 l12,24 l10,-40 l8,28 l12,-38 l10,26 l8,-42 l12,32 l10,-36 l8,25 l12,-40 l10,30 l8,-35 l12,24 l10,-40 l8,28 L800,180 L800,240 L0,240Z" fill="#2a4a28" opacity="0.6"/>
+  <!-- Forest left bank -->
+  <path d="M0,200 l8,-60 l6,42 l10,-65 l8,50 l6,-55 l10,38 l8,-62 l6,48 l10,-58 l8,42 l6,-52 l10,36 l8,-60 l6,44 l10,-55 l8,38 L200,230 L200,350 L0,350Z" fill="#1a3a18"/>
+  <!-- Forest right bank -->
+  <path d="M600,230 l8,-60 l6,42 l10,-65 l8,50 l6,-55 l10,38 l8,-62 l6,48 l10,-58 l8,42 l6,-52 l10,36 l8,-60 l6,44 l10,-55 l8,38 L800,200 L800,350 L600,350Z" fill="#1a3a18"/>
+  <!-- River banks -->
+  <path d="M0,320 Q100,310 200,330 Q300,350 400,340 Q500,330 600,340 Q700,320 800,330 L800,360 Q700,350 600,370 Q500,360 400,370 Q300,380 200,360 Q100,340 0,350Z" fill="#5a6a48"/>
+  <!-- River water -->
+  <path d="M0,340 Q100,330 200,350 Q300,370 400,360 Q500,350 600,360 Q700,340 800,350 L800,440 Q700,430 600,445 Q500,440 400,450 Q300,460 200,445 Q100,430 0,440Z" fill="url(#p3water)"/>
+  <!-- Water reflections -->
+  <line x1="100" y1="370" x2="180" y2="368" stroke="#6a8a9a" stroke-width="1" opacity="0.3"/>
+  <line x1="300" y1="380" x2="380" y2="378" stroke="#6a8a9a" stroke-width="1" opacity="0.3"/>
+  <line x1="500" y1="375" x2="580" y2="373" stroke="#6a8a9a" stroke-width="1" opacity="0.3"/>
+  <line x1="150" y1="400" x2="250" y2="398" stroke="#6a8a9a" stroke-width="1" opacity="0.2"/>
+  <line x1="400" y1="405" x2="500" y2="403" stroke="#6a8a9a" stroke-width="1" opacity="0.2"/>
+  <line x1="600" y1="395" x2="700" y2="393" stroke="#6a8a9a" stroke-width="1" opacity="0.2"/>
+  <line x1="200" y1="420" x2="320" y2="418" stroke="#6a8a9a" stroke-width="1" opacity="0.15"/>
+  <!-- Bridge structure -->
+  <!-- Bridge deck -->
+  <rect x="180" y="310" width="440" height="18" rx="2" fill="#6a5a40"/>
+  <rect x="180" y="310" width="440" height="4" fill="#7a6a50"/>
+  <!-- Guard rails -->
+  <rect x="185" y="298" width="430" height="4" rx="1" fill="#5a4a30"/>
+  <!-- Rail posts -->
+  <rect x="200" y="298" width="5" height="16" fill="#5a4a30"/>
+  <rect x="250" y="298" width="5" height="16" fill="#5a4a30"/>
+  <rect x="300" y="298" width="5" height="16" fill="#5a4a30"/>
+  <rect x="350" y="298" width="5" height="16" fill="#5a4a30"/>
+  <rect x="400" y="298" width="5" height="16" fill="#5a4a30"/>
+  <rect x="450" y="298" width="5" height="16" fill="#5a4a30"/>
+  <rect x="500" y="298" width="5" height="16" fill="#5a4a30"/>
+  <rect x="550" y="298" width="5" height="16" fill="#5a4a30"/>
+  <rect x="595" y="298" width="5" height="16" fill="#5a4a30"/>
+  <!-- Bridge supports / pilings -->
+  <rect x="290" y="328" width="12" height="120" fill="#4a3a28"/>
+  <rect x="390" y="328" width="12" height="120" fill="#4a3a28"/>
+  <rect x="490" y="328" width="12" height="120" fill="#4a3a28"/>
+  <!-- Cross bracing -->
+  <line x1="296" y1="340" x2="396" y2="420" stroke="#4a3a28" stroke-width="4"/>
+  <line x1="396" y1="340" x2="296" y2="420" stroke="#4a3a28" stroke-width="4"/>
+  <line x1="396" y1="340" x2="496" y2="420" stroke="#4a3a28" stroke-width="4"/>
+  <line x1="496" y1="340" x2="396" y2="420" stroke="#4a3a28" stroke-width="4"/>
+  <!-- Road approaching bridge left -->
+  <path d="M0,305 Q50,308 100,310 Q150,312 180,313" stroke="#7a6a50" stroke-width="28" fill="none"/>
+  <!-- Road approaching bridge right -->
+  <path d="M620,313 Q680,310 720,308 Q760,305 800,302" stroke="#7a6a50" stroke-width="28" fill="none"/>
+  <!-- Far bank -->
+  <path d="M0,440 Q100,430 200,445 Q300,460 400,450 Q500,440 600,445 Q700,430 800,440 L800,480 L0,480Z" fill="#5a6a48"/>
+  <!-- Vegetation on banks -->
+  <path d="M0,330 Q30,325 60,328 Q90,320 120,325 Q150,318 180,322" stroke="#3a5a30" stroke-width="8" fill="none" opacity="0.5"/>
+  <path d="M620,322 Q650,318 680,325 Q710,320 740,328 Q770,325 800,330" stroke="#3a5a30" stroke-width="8" fill="none" opacity="0.5"/>
+  <!-- Foreground riverbank and vegetation -->
+  <path d="M0,460 Q200,450 400,455 Q600,450 800,460 L800,600 L0,600Z" fill="#3a5a30"/>
+  <!-- Foreground trees -->
+  <path d="M0,400 l8,-55 l6,38 l10,-60 l8,45 l6,-50 l10,35 l8,-55 l6,40 L80,420 L80,600 L0,600Z" fill="#122e10"/>
+  <path d="M720,420 l8,-55 l6,38 l10,-60 l8,45 l6,-50 l10,35 l8,-55 l6,40 L800,400 L800,600 L720,600Z" fill="#122e10"/>
+  <!-- Rocks in/near water -->
+  <ellipse cx="250" cy="430" rx="15" ry="8" fill="#5a5a50"/>
+  <ellipse cx="550" cy="435" rx="12" ry="6" fill="#5a5a50"/>
+  <ellipse cx="350" cy="445" rx="10" ry="5" fill="#5a5a50"/>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="p1sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a7a5e"/>
+      <stop offset="100%" stop-color="#3a5a3e"/>
+    </linearGradient>
+  </defs>
+  <!-- Base - aerial forest canopy -->
+  <rect width="800" height="600" fill="url(#p1sky)"/>
+  <!-- Forest canopy texture - circles for tree tops -->
+  <circle cx="40" cy="30" r="28" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="90" cy="50" r="32" fill="#1e4e22" opacity="0.7"/>
+  <circle cx="150" cy="25" r="30" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="200" cy="60" r="35" fill="#1e4e22" opacity="0.7"/>
+  <circle cx="260" cy="35" r="28" fill="#2e5e32" opacity="0.8"/>
+  <circle cx="60" cy="100" r="30" fill="#1e4e22" opacity="0.7"/>
+  <circle cx="120" cy="90" r="34" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="180" cy="110" r="28" fill="#1a4a1e" opacity="0.7"/>
+  <circle cx="240" cy="95" r="32" fill="#2e5e32" opacity="0.8"/>
+  <circle cx="50" cy="170" r="30" fill="#2a5a2e" opacity="0.7"/>
+  <circle cx="110" cy="160" r="35" fill="#1e4e22" opacity="0.8"/>
+  <circle cx="170" cy="180" r="28" fill="#2e5e32" opacity="0.7"/>
+  <circle cx="230" cy="165" r="33" fill="#1a4a1e" opacity="0.8"/>
+  <!-- More canopy right side -->
+  <circle cx="540" cy="30" r="30" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="600" cy="55" r="34" fill="#1e4e22" opacity="0.7"/>
+  <circle cx="660" cy="25" r="28" fill="#2e5e32" opacity="0.8"/>
+  <circle cx="720" cy="50" r="32" fill="#1a4a1e" opacity="0.7"/>
+  <circle cx="770" cy="30" r="30" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="560" cy="100" r="32" fill="#1e4e22" opacity="0.7"/>
+  <circle cx="620" cy="85" r="28" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="680" cy="105" r="35" fill="#2e5e32" opacity="0.7"/>
+  <circle cx="740" cy="90" r="30" fill="#1a4a1e" opacity="0.8"/>
+  <circle cx="550" cy="170" r="34" fill="#2a5a2e" opacity="0.7"/>
+  <circle cx="610" cy="155" r="28" fill="#1e4e22" opacity="0.8"/>
+  <circle cx="670" cy="175" r="32" fill="#2e5e32" opacity="0.7"/>
+  <circle cx="730" cy="160" r="30" fill="#1a4a1e" opacity="0.8"/>
+  <circle cx="780" cy="145" r="28" fill="#2a5a2e" opacity="0.7"/>
+  <!-- Bottom canopy left -->
+  <circle cx="40" cy="420" r="30" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="100" cy="440" r="34" fill="#1e4e22" opacity="0.7"/>
+  <circle cx="160" cy="415" r="28" fill="#2e5e32" opacity="0.8"/>
+  <circle cx="220" cy="445" r="32" fill="#1a4a1e" opacity="0.7"/>
+  <circle cx="50" cy="490" r="30" fill="#1e4e22" opacity="0.7"/>
+  <circle cx="110" cy="510" r="35" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="170" cy="485" r="28" fill="#2e5e32" opacity="0.7"/>
+  <circle cx="230" cy="510" r="33" fill="#1a4a1e" opacity="0.8"/>
+  <circle cx="40" cy="560" r="30" fill="#2a5a2e" opacity="0.7"/>
+  <circle cx="100" cy="575" r="34" fill="#1e4e22" opacity="0.8"/>
+  <circle cx="160" cy="555" r="28" fill="#2e5e32" opacity="0.7"/>
+  <circle cx="220" cy="580" r="32" fill="#1a4a1e" opacity="0.7"/>
+  <!-- Bottom canopy right -->
+  <circle cx="560" cy="420" r="32" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="620" cy="445" r="28" fill="#1e4e22" opacity="0.7"/>
+  <circle cx="680" cy="415" r="34" fill="#2e5e32" opacity="0.8"/>
+  <circle cx="740" cy="440" r="30" fill="#1a4a1e" opacity="0.7"/>
+  <circle cx="790" cy="420" r="28" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="550" cy="490" r="30" fill="#1e4e22" opacity="0.7"/>
+  <circle cx="610" cy="510" r="35" fill="#2a5a2e" opacity="0.8"/>
+  <circle cx="670" cy="485" r="28" fill="#2e5e32" opacity="0.7"/>
+  <circle cx="730" cy="510" r="33" fill="#1a4a1e" opacity="0.8"/>
+  <circle cx="790" cy="490" r="30" fill="#2a5a2e" opacity="0.7"/>
+  <circle cx="560" cy="560" r="32" fill="#1e4e22" opacity="0.8"/>
+  <circle cx="620" cy="575" r="28" fill="#2a5a2e" opacity="0.7"/>
+  <circle cx="680" cy="555" r="34" fill="#2e5e32" opacity="0.8"/>
+  <circle cx="740" cy="580" r="30" fill="#1a4a1e" opacity="0.7"/>
+  <!-- Road cutting through diagonally -->
+  <path d="M280,0 Q320,80 340,160 Q360,240 370,300 Q380,360 400,420 Q420,500 460,600" stroke="#8a7050" stroke-width="55" fill="none" stroke-linecap="round"/>
+  <path d="M280,0 Q320,80 340,160 Q360,240 370,300 Q380,360 400,420 Q420,500 460,600" stroke="#9a8060" stroke-width="45" fill="none" stroke-linecap="round"/>
+  <!-- Road center marking -->
+  <path d="M280,0 Q320,80 340,160 Q360,240 370,300 Q380,360 400,420 Q420,500 460,600" stroke="#a89070" stroke-width="2" fill="none" stroke-dasharray="10,8" opacity="0.5"/>
+  <!-- Trees along road edges (shadows) -->
+  <path d="M280,0 Q320,80 340,160 Q360,240 370,300 Q380,360 400,420 Q420,500 460,600" stroke="#1a3a1e" stroke-width="65" fill="none" opacity="0.3" stroke-linecap="round"/>
+  <!-- Subtle road shadow -->
+  <path d="M280,0 Q320,80 340,160 Q360,240 370,300 Q380,360 400,420 Q420,500 460,600" stroke="#6a5a40" stroke-width="56" fill="none" opacity="0.2" stroke-linecap="round"/>
+  <!-- Reapply road -->
+  <path d="M280,0 Q320,80 340,160 Q360,240 370,300 Q380,360 400,420 Q420,500 460,600" stroke="#9a8060" stroke-width="42" fill="none" stroke-linecap="round"/>
+  <!-- Connecting canopy over road edges -->
+  <circle cx="300" cy="30" r="25" fill="#2a5a2e" opacity="0.5"/>
+  <circle cx="330" cy="120" r="22" fill="#1e4e22" opacity="0.4"/>
+  <circle cx="350" cy="200" r="20" fill="#2e5e32" opacity="0.4"/>
+  <circle cx="440" cy="550" r="24" fill="#1e4e22" opacity="0.4"/>
+  <circle cx="420" cy="470" r="22" fill="#2a5a2e" opacity="0.5"/>
+  <!-- Overall green overlay for cohesion -->
+  <rect width="800" height="600" fill="#2a4a2e" opacity="0.1"/>
+</svg>

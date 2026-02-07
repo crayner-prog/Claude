@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="p4sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a7a8a"/>
+      <stop offset="40%" stop-color="#8a9aa0"/>
+      <stop offset="70%" stop-color="#9aaa9a"/>
+      <stop offset="100%" stop-color="#a8b8a0"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#p4sky)"/>
+  <!-- Farthest mountain layer -->
+  <path d="M0,280 Q80,260 160,230 Q240,200 320,220 Q400,190 480,210 Q560,180 640,200 Q720,230 800,250 L800,320 L0,320Z" fill="#8a9a90" opacity="0.5"/>
+  <!-- Second mountain layer -->
+  <path d="M0,310 Q100,280 200,260 Q300,240 380,265 Q460,230 540,250 Q620,225 700,245 Q750,260 800,280 L800,350 L0,350Z" fill="#6a8070" opacity="0.6"/>
+  <!-- Third mountain layer -->
+  <path d="M0,340 Q80,320 180,300 Q280,280 360,305 Q420,280 500,290 Q580,270 660,285 Q740,300 800,320 L800,380 L0,380Z" fill="#4a6850" opacity="0.7"/>
+  <!-- Nearest ridge with forest -->
+  <path d="M0,370 Q60,355 120,340 Q200,320 280,340 Q340,310 420,320 Q500,300 580,315 Q660,330 740,345 Q780,355 800,365 L800,420 L0,420Z" fill="#2a4a30"/>
+  <!-- Forest detail on ridge -->
+  <path d="M0,360 l6,-25 l5,18 l8,-30 l6,22 l5,-25 l8,18 l6,-28 l5,20 l8,-25 l6,18 l5,-22 l8,15 l6,-25 l5,18 l8,-28 l6,20 l5,-22 l8,15 l6,-25 l5,18 l8,-28 l6,20 l5,-22 l8,15 l6,-25 l5,18 l8,-28 l6,20 l5,-22 l8,15 l6,-25 l5,18 l8,-28 l6,20 l5,-22 l8,15 l6,-25 l5,18 l8,-28 l6,20 l5,-22 l8,15 l6,-25 l5,18 l8,-28 l6,20 l5,-22 l8,15 l6,-25 l5,18 l8,-28 l6,20 l5,-22 l8,15 l6,-25 l5,18 l8,-28 l6,20 L800,360 L800,390 L0,390Z" fill="#1e3a22" opacity="0.8"/>
+  <!-- Valley floor -->
+  <rect x="0" y="390" width="800" height="210" fill="#2a4a2e"/>
+  <!-- Ridge road -->
+  <path d="M0,400 Q100,395 200,405 Q300,415 400,410 Q500,400 600,395 Q700,390 800,395" stroke="#8a7a58" stroke-width="22" fill="none"/>
+  <path d="M0,400 Q100,395 200,405 Q300,415 400,410 Q500,400 600,395 Q700,390 800,395" stroke="#9a8a68" stroke-width="16" fill="none"/>
+  <!-- Road edge detail -->
+  <path d="M0,400 Q100,395 200,405 Q300,415 400,410 Q500,400 600,395 Q700,390 800,395" stroke="#7a6a48" stroke-width="1" fill="none" stroke-dasharray="8,6" opacity="0.5"/>
+  <!-- Drop-off side (looking down into valley) -->
+  <path d="M0,412 Q100,407 200,417 Q300,427 400,422 Q500,412 600,407 Q700,402 800,407 L800,600 L0,600Z" fill="#1a3a1e"/>
+  <!-- Cliff/slope texture -->
+  <path d="M0,420 Q200,430 400,428 Q600,418 800,415" stroke="#2a4a2e" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M0,440 Q200,450 400,448 Q600,438 800,435" stroke="#2a4a2e" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M0,465 Q200,475 400,472 Q600,462 800,458" stroke="#1a3a1e" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Distant valley trees (tiny) -->
+  <path d="M100,500 l4,-15 l3,10 l5,-18 l4,13 l3,-14 l5,10 l4,-16 l3,12 l5,-15 l4,10 l3,-12 l5,8 l4,-15 l3,10 l5,-18 l4,13 l3,-14 l5,10 l4,-16 l3,12 l5,-15 l4,10 l3,-12 l5,8 l4,-15 l3,10 l5,-18 l4,13 l3,-14 l5,10 l4,-16 l3,12 l5,-15 l4,10 l3,-12 l5,8 l4,-15 l3,10 l5,-18 l4,13 l3,-14 l5,10 l4,-16 l3,12 L700,500 L700,550 L100,550Z" fill="#1a3a1e" opacity="0.5"/>
+  <!-- Guardrail along cliff edge -->
+  <path d="M0,408 Q100,403 200,413 Q300,423 400,418 Q500,408 600,403 Q700,398 800,403" stroke="#6a6a5a" stroke-width="2" fill="none"/>
+  <!-- Guardrail posts -->
+  <line x1="50" y1="404" x2="50" y2="414" stroke="#6a6a5a" stroke-width="2"/>
+  <line x1="120" y1="400" x2="120" y2="410" stroke="#6a6a5a" stroke-width="2"/>
+  <line x1="200" y1="404" x2="200" y2="414" stroke="#6a6a5a" stroke-width="2"/>
+  <line x1="280" y1="410" x2="280" y2="420" stroke="#6a6a5a" stroke-width="2"/>
+  <line x1="360" y1="414" x2="360" y2="424" stroke="#6a6a5a" stroke-width="2"/>
+  <line x1="440" y1="412" x2="440" y2="422" stroke="#6a6a5a" stroke-width="2"/>
+  <line x1="520" y1="406" x2="520" y2="416" stroke="#6a6a5a" stroke-width="2"/>
+  <line x1="600" y1="400" x2="600" y2="410" stroke="#6a6a5a" stroke-width="2"/>
+  <line x1="680" y1="396" x2="680" y2="406" stroke="#6a6a5a" stroke-width="2"/>
+  <line x1="760" y1="398" x2="760" y2="408" stroke="#6a6a5a" stroke-width="2"/>
+  <!-- Mountain side trees (uphill side) -->
+  <path d="M0,388 l5,-20 l4,14 l6,-22 l5,16 l4,-18 l6,12 l5,-20 l4,14 l6,-22 l5,16 l4,-18 l6,12 l5,-20 l4,14 l6,-22 l5,16 l4,-18 l6,12 l5,-20 l4,14 l6,-22 l5,16 l4,-18 l6,12 l5,-20 l4,14 l6,-22 l5,16 l4,-18 l6,12 l5,-20 l4,14 l6,-22 l5,16 l4,-18 l6,12 l5,-20 l4,14 l6,-22 l5,16 l4,-18 l6,12 l5,-20 l4,14 l6,-22 l5,16 l4,-18 l6,12 L800,385 L800,400 L0,400Z" fill="#1e3a22"/>
+  <!-- Atmospheric haze -->
+  <rect x="0" y="250" width="800" height="100" fill="#8a9a90" opacity="0.12"/>
+</svg>

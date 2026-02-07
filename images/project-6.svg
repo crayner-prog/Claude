@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="p6sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a7068"/>
+      <stop offset="50%" stop-color="#6a8070"/>
+      <stop offset="100%" stop-color="#7a9078"/>
+    </linearGradient>
+    <linearGradient id="p6road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a8070"/>
+      <stop offset="100%" stop-color="#7a7060"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky filtered through canopy -->
+  <rect width="800" height="600" fill="url(#p6sky)"/>
+  <!-- Canopy overhead (dappled) -->
+  <ellipse cx="100" cy="30" rx="120" ry="60" fill="#1a3a18" opacity="0.5"/>
+  <ellipse cx="300" cy="20" rx="140" ry="50" fill="#1e3e1c" opacity="0.4"/>
+  <ellipse cx="550" cy="40" rx="130" ry="55" fill="#1a3a18" opacity="0.5"/>
+  <ellipse cx="750" cy="25" rx="110" ry="45" fill="#1e3e1c" opacity="0.4"/>
+  <ellipse cx="200" cy="80" rx="100" ry="40" fill="#1a3a18" opacity="0.3"/>
+  <ellipse cx="500" cy="70" rx="110" ry="45" fill="#1e3e1c" opacity="0.3"/>
+  <!-- Forest left side - tall trees -->
+  <!-- Tree trunks left -->
+  <rect x="50" y="120" width="12" height="400" fill="#3a3020" opacity="0.8"/>
+  <rect x="100" y="100" width="14" height="420" fill="#3a3020" opacity="0.9"/>
+  <rect x="160" y="130" width="11" height="390" fill="#3a3020" opacity="0.7"/>
+  <rect x="220" y="110" width="13" height="410" fill="#3a3020" opacity="0.8"/>
+  <rect x="20" y="140" width="10" height="380" fill="#3a3020" opacity="0.6"/>
+  <!-- Tree foliage left -->
+  <path d="M30,120 l15,-50 l12,35 l18,-55 l14,42 l12,-48 l18,35 l14,-52 l12,40 l18,-55 l15,42 l12,-45 l18,32 l14,-50 l12,38 l18,-52 l15,40 l12,-48 l18,35 l14,-52 l12,40 L280,130 L280,200 L30,200Z" fill="#1a3a18"/>
+  <!-- Forest right side - tall trees -->
+  <rect x="580" y="110" width="13" height="410" fill="#3a3020" opacity="0.8"/>
+  <rect x="640" y="130" width="11" height="390" fill="#3a3020" opacity="0.7"/>
+  <rect x="700" y="100" width="14" height="420" fill="#3a3020" opacity="0.9"/>
+  <rect x="750" y="120" width="12" height="400" fill="#3a3020" opacity="0.8"/>
+  <rect x="540" y="140" width="10" height="380" fill="#3a3020" opacity="0.6"/>
+  <!-- Tree foliage right -->
+  <path d="M520,130 l15,-50 l12,35 l18,-55 l14,42 l12,-48 l18,35 l14,-52 l12,40 l18,-55 l15,42 l12,-45 l18,32 l14,-50 l12,38 l18,-52 l15,40 l12,-48 l18,35 L800,120 L800,200 L520,200Z" fill="#1a3a18"/>
+  <!-- Forest floor / shoulders -->
+  <path d="M0,350 Q80,340 150,345 Q200,350 250,355 Q280,360 300,365 L300,600 L0,600Z" fill="#2a4a28"/>
+  <path d="M500,365 Q520,360 550,355 Q600,350 650,345 Q720,340 800,350 L800,600 L500,600Z" fill="#2a4a28"/>
+  <!-- Undergrowth texture -->
+  <path d="M0,370 Q40,360 80,365 Q120,358 160,362 Q200,356 240,360 Q270,358 300,370" stroke="#1e3e1c" stroke-width="4" fill="none" opacity="0.5"/>
+  <path d="M500,370 Q530,358 560,360 Q600,356 640,362 Q680,358 720,365 Q760,360 800,370" stroke="#1e3e1c" stroke-width="4" fill="none" opacity="0.5"/>
+  <!-- Gravel road - perspective receding -->
+  <path d="M300,200 Q350,180 400,175 Q450,180 500,200" fill="#8a8070"/>
+  <path d="M300,200 L200,600 L600,600 L500,200Z" fill="url(#p6road)"/>
+  <!-- Road crown (slightly lighter center) -->
+  <path d="M380,200 L320,600 L480,600 L420,200Z" fill="#9a9080" opacity="0.3"/>
+  <!-- Gravel texture -->
+  <circle cx="400" cy="250" r="2" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="380" cy="280" r="1.5" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="420" cy="310" r="2" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="360" cy="350" r="2.5" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="440" cy="340" r="2" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="350" cy="400" r="3" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="450" cy="390" r="2.5" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="330" cy="450" r="3" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="470" cy="440" r="3" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="300" cy="500" r="3.5" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="500" cy="490" r="3" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="260" cy="550" r="4" fill="#9a8a70" opacity="0.4"/>
+  <circle cx="540" cy="540" r="3.5" fill="#9a8a70" opacity="0.4"/>
+  <!-- Road edges / ditches -->
+  <line x1="300" y1="200" x2="200" y2="600" stroke="#5a5a40" stroke-width="3" opacity="0.5"/>
+  <line x1="500" y1="200" x2="600" y2="600" stroke="#5a5a40" stroke-width="3" opacity="0.5"/>
+  <!-- Tire ruts -->
+  <path d="M370,200 L290,600" stroke="#6a6050" stroke-width="4" fill="none" opacity="0.3"/>
+  <path d="M430,200 L510,600" stroke="#6a6050" stroke-width="4" fill="none" opacity="0.3"/>
+  <!-- Light filtering through trees -->
+  <ellipse cx="400" cy="200" rx="60" ry="30" fill="#8a9a70" opacity="0.1"/>
+  <ellipse cx="380" cy="350" rx="40" ry="80" fill="#8a9a70" opacity="0.08"/>
+  <!-- Shadows across road from trees -->
+  <path d="M320,300 L460,320" stroke="#4a5a40" stroke-width="15" fill="none" opacity="0.12"/>
+  <path d="M280,420 L520,440" stroke="#4a5a40" stroke-width="18" fill="none" opacity="0.12"/>
+  <path d="M240,530 L560,550" stroke="#4a5a40" stroke-width="20" fill="none" opacity="0.1"/>
+</svg>

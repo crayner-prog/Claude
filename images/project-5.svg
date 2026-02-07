@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="p5sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a6a62"/>
+      <stop offset="60%" stop-color="#7a8a72"/>
+      <stop offset="100%" stop-color="#8a9a80"/>
+    </linearGradient>
+    <linearGradient id="p5ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7a58"/>
+      <stop offset="100%" stop-color="#6a5a38"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#p5sky)"/>
+  <!-- Distant tree line -->
+  <path d="M0,180 l10,-35 l8,24 l12,-40 l10,30 l8,-32 l12,22 l10,-38 l8,28 l12,-35 l10,25 l8,-30 l12,20 l10,-35 l8,26 l12,-32 l10,22 l8,-36 l12,28 l10,-30 l8,20 l12,-34 l10,26 l8,-32 l12,22 l10,-38 l8,28 l12,-35 l10,25 l8,-30 l12,20 l10,-35 l8,26 l12,-32 l10,22 l8,-36 l12,28 l10,-30 l8,20 l12,-34 l10,26 l8,-32 l12,22 l10,-38 l8,28 l12,-35 l10,25 l8,-30 l12,20 l10,-35 l8,26 L800,180 L800,240 L0,240Z" fill="#2a4a28" opacity="0.6"/>
+  <!-- Surrounding forest -->
+  <path d="M0,200 l8,-55 l6,38 l10,-60 l8,45 l6,-50 l10,35 l8,-55 l6,40 l10,-58 l8,42 l6,-48 l10,32 l8,-52 l6,36 l10,-55 l8,40 L250,230 L250,300 L0,300Z" fill="#1a3a18"/>
+  <path d="M550,230 l8,-55 l6,38 l10,-60 l8,45 l6,-50 l10,35 l8,-55 l6,40 l10,-58 l8,42 l6,-48 l10,32 l8,-52 l6,36 l10,-55 l8,40 L800,200 L800,300 L550,300Z" fill="#1a3a18"/>
+  <!-- Landing/yard ground - wide open area -->
+  <path d="M100,280 Q250,260 400,265 Q550,260 700,280 L800,320 L800,600 L0,600 L0,320Z" fill="url(#p5ground)"/>
+  <!-- Compacted surface texture -->
+  <path d="M120,300 Q300,290 500,295 Q680,290 780,310" stroke="#7a6a48" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M80,330 Q280,320 500,325 Q700,320 800,340" stroke="#7a6a48" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M50,360 Q260,350 500,355 Q720,350 800,370" stroke="#7a6a48" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Large log pile 1 (left) -->
+  <g transform="translate(150,340)">
+    <ellipse cx="0" cy="0" rx="80" ry="14" fill="#5a4020"/>
+    <ellipse cx="0" cy="-10" rx="75" ry="12" fill="#6a4a28"/>
+    <ellipse cx="0" cy="-20" rx="70" ry="11" fill="#7a5a30"/>
+    <ellipse cx="0" cy="-30" rx="65" ry="10" fill="#6a4a28"/>
+    <ellipse cx="0" cy="-40" rx="58" ry="9" fill="#7a5a30"/>
+    <!-- Log ends -->
+    <circle cx="-75" cy="-5" r="9" fill="#7a5a30" stroke="#4a3018" stroke-width="1.5"/>
+    <circle cx="-70" cy="-16" r="8" fill="#8a6a38" stroke="#4a3018" stroke-width="1.5"/>
+    <circle cx="-65" cy="-27" r="7" fill="#7a5a30" stroke="#4a3018" stroke-width="1.5"/>
+    <circle cx="-58" cy="-37" r="6" fill="#8a6a38" stroke="#4a3018" stroke-width="1.5"/>
+    <circle cx="75" cy="-5" r="9" fill="#7a5a30" stroke="#4a3018" stroke-width="1.5"/>
+    <circle cx="70" cy="-16" r="8" fill="#8a6a38" stroke="#4a3018" stroke-width="1.5"/>
+    <circle cx="65" cy="-27" r="7" fill="#7a5a30" stroke="#4a3018" stroke-width="1.5"/>
+  </g>
+  <!-- Large log pile 2 (center-right) -->
+  <g transform="translate(500,360)">
+    <ellipse cx="0" cy="0" rx="90" ry="15" fill="#5a4020"/>
+    <ellipse cx="0" cy="-12" rx="85" ry="13" fill="#6a4a28"/>
+    <ellipse cx="0" cy="-24" rx="78" ry="12" fill="#7a5a30"/>
+    <ellipse cx="0" cy="-35" rx="72" ry="10" fill="#6a4a28"/>
+    <ellipse cx="0" cy="-45" rx="64" ry="9" fill="#7a5a30"/>
+    <ellipse cx="0" cy="-54" rx="55" ry="8" fill="#6a4a28"/>
+    <!-- Log ends -->
+    <circle cx="-85" cy="-5" r="10" fill="#7a5a30" stroke="#4a3018" stroke-width="1.5"/>
+    <circle cx="-80" cy="-18" r="9" fill="#8a6a38" stroke="#4a3018" stroke-width="1.5"/>
+    <circle cx="-74" cy="-30" r="8" fill="#7a5a30" stroke="#4a3018" stroke-width="1.5"/>
+    <circle cx="-68" cy="-41" r="7" fill="#8a6a38" stroke="#4a3018" stroke-width="1.5"/>
+    <circle cx="-60" cy="-50" r="6" fill="#7a5a30" stroke="#4a3018" stroke-width="1.5"/>
+  </g>
+  <!-- Scattered individual logs -->
+  <rect x="300" y="380" width="80" height="10" rx="5" fill="#6a4a28" transform="rotate(-5,340,385)"/>
+  <rect x="280" y="400" width="90" height="11" rx="5" fill="#5a4020" transform="rotate(3,325,405)"/>
+  <rect x="320" y="415" width="70" height="9" rx="5" fill="#6a4a28" transform="rotate(-8,355,420)"/>
+  <!-- Machinery tracks on ground -->
+  <path d="M0,450 Q150,440 250,445 Q350,450 450,445 Q550,440 650,445 Q750,440 800,450" stroke="#5a4a30" stroke-width="6" fill="none" opacity="0.3"/>
+  <path d="M0,460 Q150,450 250,455 Q350,460 450,455 Q550,450 650,455 Q750,450 800,460" stroke="#5a4a30" stroke-width="6" fill="none" opacity="0.3"/>
+  <!-- Access road entering -->
+  <path d="M0,420 Q50,410 100,405 Q150,400 200,398" stroke="#7a6a48" stroke-width="30" fill="none"/>
+  <path d="M650,398 Q700,400 750,410 Q780,418 800,425" stroke="#7a6a48" stroke-width="30" fill="none"/>
+  <!-- Foreground dirt and gravel -->
+  <path d="M0,520 Q200,510 400,515 Q600,510 800,520 L800,600 L0,600Z" fill="#5a4a30" opacity="0.5"/>
+  <!-- Small rocks/gravel detail -->
+  <circle cx="150" cy="500" r="4" fill="#6a5a40" opacity="0.5"/>
+  <circle cx="350" cy="490" r="3" fill="#6a5a40" opacity="0.5"/>
+  <circle cx="550" cy="505" r="5" fill="#6a5a40" opacity="0.5"/>
+  <circle cx="680" cy="495" r="3.5" fill="#6a5a40" opacity="0.5"/>
+</svg>

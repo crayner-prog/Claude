@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="p7sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a5a52"/>
+      <stop offset="60%" stop-color="#5a6a58"/>
+      <stop offset="100%" stop-color="#6a7a60"/>
+    </linearGradient>
+    <linearGradient id="p7water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a6068"/>
+      <stop offset="50%" stop-color="#3a5058"/>
+      <stop offset="100%" stop-color="#4a6068"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#p7sky)"/>
+  <!-- Forest canopy overhead -->
+  <path d="M0,80 l10,-45 l8,32 l12,-50 l10,38 l8,-42 l12,30 l10,-48 l8,35 l12,-42 l10,30 l8,-38 l12,26 l10,-44 l8,32 l12,-40 l10,28 l8,-42 l12,30 l10,-45 l8,35 l12,-40 l10,28 l8,-38 l12,26 l10,-44 l8,32 l12,-40 l10,28 l8,-42 l12,30 l10,-48 l8,35 l12,-42 l10,30 l8,-38 l12,26 l10,-44 l8,32 l12,-40 l10,28 l8,-42 l12,30 l10,-45 l8,35 l12,-40 l10,28 l8,-38 l12,26 l10,-44 l8,32 L800,80 L800,160 L0,160Z" fill="#1a3a18" opacity="0.7"/>
+  <!-- Forest sides -->
+  <path d="M0,100 l8,-60 l6,42 l10,-65 l8,50 l6,-55 l10,38 l8,-60 l6,44 l10,-58 l8,42 l6,-52 l10,36 L170,120 L170,350 L0,350Z" fill="#142e12"/>
+  <path d="M630,120 l8,-60 l6,42 l10,-65 l8,50 l6,-55 l10,38 l8,-60 l6,44 l10,-58 l8,42 l6,-52 l10,36 L800,100 L800,350 L630,350Z" fill="#142e12"/>
+  <!-- Forest floor sloping to channel -->
+  <path d="M0,300 Q100,290 170,310 Q220,330 270,360 L270,600 L0,600Z" fill="#2a4a28"/>
+  <path d="M530,360 Q580,330 630,310 Q700,290 800,300 L800,600 L530,600Z" fill="#2a4a28"/>
+  <!-- Slope texture -->
+  <path d="M170,320 Q200,340 230,355 Q250,365 270,380" stroke="#1e3e1c" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M530,380 Q550,365 570,355 Q600,340 630,320" stroke="#1e3e1c" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- Drainage channel / ditch walls -->
+  <path d="M270,200 L270,600" stroke="#4a5a42" stroke-width="4" fill="none"/>
+  <path d="M530,200 L530,600" stroke="#4a5a42" stroke-width="4" fill="none"/>
+  <!-- Channel bed -->
+  <rect x="270" y="200" width="260" height="400" fill="#3a4a3a"/>
+  <!-- Rock lining on channel sides -->
+  <ellipse cx="280" cy="250" rx="10" ry="7" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="285" cy="300" rx="12" ry="8" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="278" cy="350" rx="10" ry="6" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="282" cy="400" rx="11" ry="7" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="280" cy="450" rx="10" ry="6" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="285" cy="500" rx="12" ry="8" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="278" cy="550" rx="10" ry="7" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="520" cy="250" rx="10" ry="7" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="515" cy="300" rx="12" ry="8" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="522" cy="350" rx="10" ry="6" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="518" cy="400" rx="11" ry="7" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="520" cy="450" rx="10" ry="6" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="515" cy="500" rx="12" ry="8" fill="#5a5a50" opacity="0.6"/>
+  <ellipse cx="522" cy="550" rx="10" ry="7" fill="#5a5a50" opacity="0.6"/>
+  <!-- Water flow in channel -->
+  <path d="M350,0 Q360,50 355,100 Q345,150 350,200 Q360,250 355,300 Q345,350 350,400 Q360,450 355,500 Q345,550 350,600" stroke="#4a7a8a" stroke-width="40" fill="none" opacity="0.4"/>
+  <path d="M400,0 Q410,50 405,100 Q395,150 400,200 Q410,250 405,300 Q395,350 400,400 Q410,450 405,500 Q395,550 400,600" stroke="#4a7a8a" stroke-width="35" fill="none" opacity="0.3"/>
+  <!-- Water surface highlights -->
+  <path d="M320,220 Q360,218 400,220 Q440,218 480,220" stroke="#6a9aaa" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <path d="M330,280 Q370,278 400,280 Q430,278 470,280" stroke="#6a9aaa" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M320,340 Q360,338 400,340 Q440,338 480,340" stroke="#6a9aaa" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <path d="M330,400 Q370,398 400,400 Q430,398 470,400" stroke="#6a9aaa" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M320,460 Q360,458 400,460 Q440,458 480,460" stroke="#6a9aaa" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <path d="M330,520 Q370,518 400,520 Q430,518 470,520" stroke="#6a9aaa" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Culvert pipe at top -->
+  <ellipse cx="400" cy="210" rx="55" ry="22" fill="#4a4a42" stroke="#3a3a32" stroke-width="2"/>
+  <ellipse cx="400" cy="210" rx="42" ry="17" fill="#2a3a3a"/>
+  <!-- Culvert headwall -->
+  <rect x="290" y="195" width="220" height="20" fill="#5a5a50" rx="2"/>
+  <!-- Road above culvert -->
+  <path d="M200,195 Q300,185 400,183 Q500,185 600,195" stroke="#7a6a50" stroke-width="25" fill="none"/>
+  <path d="M200,195 Q300,185 400,183 Q500,185 600,195" stroke="#8a7a60" stroke-width="18" fill="none"/>
+  <!-- Vegetation along channel edges -->
+  <path d="M265,230 l-5,-12 l3,8 l-4,-14 l3,10 l-5,-12 l3,8" stroke="#2a5a28" stroke-width="2" fill="none"/>
+  <path d="M265,330 l-5,-12 l3,8 l-4,-14 l3,10 l-5,-12 l3,8" stroke="#2a5a28" stroke-width="2" fill="none"/>
+  <path d="M265,430 l-5,-12 l3,8 l-4,-14 l3,10 l-5,-12 l3,8" stroke="#2a5a28" stroke-width="2" fill="none"/>
+  <path d="M535,230 l5,-12 l-3,8 l4,-14 l-3,10 l5,-12 l-3,8" stroke="#2a5a28" stroke-width="2" fill="none"/>
+  <path d="M535,330 l5,-12 l-3,8 l4,-14 l-3,10 l5,-12 l-3,8" stroke="#2a5a28" stroke-width="2" fill="none"/>
+  <path d="M535,430 l5,-12 l-3,8 l4,-14 l-3,10 l5,-12 l-3,8" stroke="#2a5a28" stroke-width="2" fill="none"/>
+  <!-- Ferns/moss on banks -->
+  <path d="M180,340 Q200,335 215,340 Q230,335 245,340 Q255,338 265,345" stroke="#2a5a25" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M535,345 Q545,338 555,340 Q570,335 585,340 Q600,335 620,340" stroke="#2a5a25" stroke-width="3" fill="none" opacity="0.5"/>
+  <!-- Dark atmosphere -->
+  <rect width="800" height="600" fill="#2a3a2a" opacity="0.1"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="35%" stop-color="#2d1b4e"/>
+      <stop offset="55%" stop-color="#8b4513"/>
+      <stop offset="70%" stop-color="#d4882e"/>
+      <stop offset="85%" stop-color="#e8a54a"/>
+      <stop offset="100%" stop-color="#f0c060"/>
+    </linearGradient>
+    <linearGradient id="glow1" cx="50%" cy="75%" r="50%" fx="50%" fy="75%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#f0c060" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f0c060" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="road1g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a4a3a"/>
+      <stop offset="100%" stop-color="#3a2a1a"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="1920" height="1080" fill="url(#sky1)"/>
+  <!-- Sun glow on horizon -->
+  <ellipse cx="960" cy="620" rx="600" ry="250" fill="#e8a54a" opacity="0.2"/>
+  <ellipse cx="960" cy="650" rx="350" ry="120" fill="#f0c060" opacity="0.15"/>
+  <!-- Distant tree line (far, lighter) -->
+  <path d="M0,580 l30,-40 l20,30 l25,-50 l20,40 l30,-35 l15,25 l35,-55 l20,45 l25,-30 l30,20 l20,-45 l25,35 l35,-50 l20,40 l15,-25 l30,15 l25,-40 l20,30 l35,-45 l25,35 l20,-30 l30,20 l15,-40 l25,30 l35,-50 l20,40 l25,-35 l30,25 l20,-45 l15,35 l35,-40 l25,30 l20,-50 l30,40 l25,-30 l15,20 l35,-45 l20,35 l25,-40 l30,30 l20,-50 l35,45 l25,-35 l15,25 l30,-40 l20,30 l25,-45 l35,40 l20,-30 l30,20 l25,-50 l15,40 l35,-35 l20,25 l25,-40 l30,30 l20,-45 l15,35 l35,-50 l25,40 l20,-30 l30,20 l25,-40 l35,30 l20,-50 l15,40 l25,-35 l30,25 L1920,580 L1920,620 L0,620Z" fill="#1a3320" opacity="0.5"/>
+  <!-- Mid tree line -->
+  <path d="M0,600 l20,-60 l15,40 l25,-70 l20,55 l30,-65 l15,45 l35,-80 l25,65 l20,-50 l30,35 l15,-60 l25,45 l35,-75 l20,60 l25,-55 l30,40 l15,-70 l20,50 l35,-65 l25,45 l20,-75 l30,60 l15,-50 l25,35 l35,-70 l20,55 l25,-60 l30,45 l15,-75 l35,60 l20,-50 l25,35 l30,-65 l20,50 l15,-70 l35,55 l25,-60 l20,45 l30,-75 l25,60 l15,-50 l35,35 l20,-65 l25,50 l30,-70 l20,55 l15,-60 l35,45 l25,-75 l20,60 l30,-50 l15,35 l25,-65 l35,50 l20,-70 l30,55 l25,-60 l15,40 l35,-75 l20,60 l25,-50 l30,35 L1920,600 L1920,680 L0,680Z" fill="#1a3320" opacity="0.7"/>
+  <!-- Near forest left -->
+  <path d="M0,550 l15,-90 l12,60 l18,-100 l15,75 l20,-110 l12,80 l25,-120 l18,95 l15,-85 l20,60 l12,-95 l18,70 l25,-115 l15,90 l20,-100 l12,75 l18,-110 l25,85 l15,-95 l20,70 l12,-105 l18,80 l25,-120 l15,95 l20,-85 l12,60 l18,-100 l15,75 l25,-115 l20,90 l12,-95 l18,70 l15,-105 l25,80 l20,-110 l12,90 l18,-100 l25,75 l15,-90 l20,65 L700,620 L700,1080 L0,1080Z" fill="#0f2818"/>
+  <!-- Near forest right -->
+  <path d="M1220,620 l15,-90 l12,60 l18,-100 l15,75 l20,-110 l12,80 l25,-120 l18,95 l15,-85 l20,60 l12,-95 l18,70 l25,-115 l15,90 l20,-100 l12,75 l18,-110 l25,85 l15,-95 l20,70 l12,-105 l18,80 l25,-120 l15,95 l20,-85 l12,60 l18,-100 l15,75 l25,-115 l20,90 L1920,550 L1920,1080 L1220,1080Z" fill="#0f2818"/>
+  <!-- Winding road -->
+  <path d="M860,620 Q820,700 780,760 Q720,850 700,920 Q680,980 660,1080 L1260,1080 Q1240,980 1220,920 Q1200,850 1140,760 Q1100,700 1060,620Z" fill="url(#road1g)"/>
+  <!-- Road center line -->
+  <path d="M960,620 Q940,700 920,760 Q900,820 890,880 Q880,940 870,1000 Q865,1040 860,1080" stroke="#d4882e" stroke-width="2" fill="none" stroke-dasharray="20,15" opacity="0.5"/>
+  <!-- Road edges highlight -->
+  <path d="M860,620 Q820,700 780,760 Q720,850 700,920 Q680,980 660,1080" stroke="#4a3a2a" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M1060,620 Q1100,700 1140,760 Q1200,850 1220,920 Q1240,980 1260,1080" stroke="#4a3a2a" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Ground/shoulder areas -->
+  <path d="M0,680 Q200,660 400,670 Q550,680 660,700 L660,1080 L0,1080Z" fill="#1a3320"/>
+  <path d="M1260,700 Q1370,680 1550,670 Q1750,660 1920,680 L1920,1080 L1260,1080Z" fill="#1a3320"/>
+  <!-- Road surface over ground -->
+  <path d="M860,620 Q820,700 780,760 Q720,850 700,920 Q680,980 660,1080 L1260,1080 Q1240,980 1220,920 Q1200,850 1140,760 Q1100,700 1060,620Z" fill="url(#road1g)"/>
+  <!-- Foreground grass/vegetation silhouettes -->
+  <path d="M0,950 Q50,940 100,945 Q150,935 200,940 Q300,930 400,935 Q500,925 600,930 L660,940 L660,1080 L0,1080Z" fill="#0a1f10" opacity="0.6"/>
+  <path d="M1260,940 Q1350,930 1450,935 Q1550,925 1650,930 Q1750,920 1850,925 Q1900,930 1920,935 L1920,1080 L1260,1080Z" fill="#0a1f10" opacity="0.6"/>
+  <!-- Atmospheric haze -->
+  <rect x="0" y="580" width="1920" height="120" fill="#d4882e" opacity="0.06"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="p2sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a7a72"/>
+      <stop offset="50%" stop-color="#8a9a82"/>
+      <stop offset="100%" stop-color="#a0aa90"/>
+    </linearGradient>
+    <linearGradient id="p2ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7a5a"/>
+      <stop offset="100%" stop-color="#6a5a3a"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#p2sky)"/>
+  <!-- Distant tree line -->
+  <path d="M0,200 l12,-40 l10,28 l14,-45 l10,35 l12,-40 l10,30 l14,-48 l12,38 l10,-35 l14,25 l10,-42 l12,32 l14,-45 l10,38 l12,-40 l10,28 l14,-48 l12,38 l10,-35 l14,25 l10,-42 l12,32 l14,-45 l10,38 l12,-40 l10,28 l14,-48 l12,38 l10,-35 l14,25 l10,-42 l12,32 l14,-45 l10,38 l12,-40 l10,28 l14,-48 l12,38 l10,-35 l14,25 l10,-42 l12,32 l14,-45 l10,38 l12,-40 l10,28 l14,-48 l12,38 l10,-35 L800,200 L800,280 L0,280Z" fill="#2a4a28" opacity="0.7"/>
+  <!-- Surrounding forest left -->
+  <path d="M0,180 l10,-65 l8,45 l12,-70 l10,55 l8,-60 l12,42 l10,-68 l8,52 l12,-62 l10,45 l8,-58 l12,40 l10,-65 l8,48 l12,-60 l10,42 l8,-55 l12,38 L200,220 L200,400 L0,400Z" fill="#1a3a18"/>
+  <!-- Surrounding forest right -->
+  <path d="M600,220 l10,-65 l8,45 l12,-70 l10,55 l8,-60 l12,42 l10,-68 l8,52 l12,-62 l10,45 l8,-58 l12,40 l10,-65 l8,48 l12,-60 l10,42 l8,-55 L800,180 L800,400 L600,400Z" fill="#1a3a18"/>
+  <!-- Clearing / skid site ground -->
+  <path d="M150,280 Q300,260 400,265 Q500,260 650,280 Q700,300 750,350 Q780,400 800,500 L800,600 L0,600 L0,500 Q20,400 50,350 Q100,300 150,280Z" fill="url(#p2ground)"/>
+  <!-- Disturbed earth texture -->
+  <path d="M180,310 Q250,300 350,305 Q450,300 550,305 Q620,310 680,320" stroke="#7a6a48" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M160,340 Q280,325 400,330 Q520,325 640,340" stroke="#7a6a48" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M140,370 Q300,355 400,358 Q520,355 660,370" stroke="#7a6a48" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <!-- Tire tracks / skid marks -->
+  <path d="M200,280 Q250,350 280,420 Q310,490 330,600" stroke="#5a4a28" stroke-width="8" fill="none" opacity="0.4"/>
+  <path d="M220,280 Q270,350 300,420 Q330,490 350,600" stroke="#5a4a28" stroke-width="8" fill="none" opacity="0.4"/>
+  <path d="M550,290 Q520,360 500,430 Q480,510 470,600" stroke="#5a4a28" stroke-width="8" fill="none" opacity="0.4"/>
+  <path d="M570,290 Q540,360 520,430 Q500,510 490,600" stroke="#5a4a28" stroke-width="8" fill="none" opacity="0.4"/>
+  <!-- Log piles -->
+  <!-- Pile 1 -->
+  <ellipse cx="350" cy="380" rx="60" ry="12" fill="#5a4020"/>
+  <ellipse cx="350" cy="372" rx="55" ry="10" fill="#6a4a28"/>
+  <ellipse cx="350" cy="365" rx="50" ry="9" fill="#7a5a30"/>
+  <ellipse cx="350" cy="358" rx="45" ry="8" fill="#6a4a28"/>
+  <!-- Log ends visible -->
+  <circle cx="295" cy="370" r="8" fill="#7a5a30" stroke="#5a4020" stroke-width="1.5"/>
+  <circle cx="295" cy="362" r="7" fill="#8a6a38" stroke="#5a4020" stroke-width="1.5"/>
+  <circle cx="405" cy="370" r="8" fill="#7a5a30" stroke="#5a4020" stroke-width="1.5"/>
+  <circle cx="405" cy="362" r="7" fill="#8a6a38" stroke="#5a4020" stroke-width="1.5"/>
+  <!-- Pile 2 -->
+  <ellipse cx="550" cy="420" rx="50" ry="10" fill="#5a4020"/>
+  <ellipse cx="550" cy="413" rx="45" ry="9" fill="#6a4a28"/>
+  <ellipse cx="550" cy="407" rx="40" ry="8" fill="#7a5a30"/>
+  <!-- Stumps scattered -->
+  <ellipse cx="250" cy="350" rx="12" ry="6" fill="#5a4a30"/>
+  <rect x="243" y="344" width="14" height="8" fill="#6a5a38"/>
+  <ellipse cx="450" cy="340" rx="10" ry="5" fill="#5a4a30"/>
+  <rect x="444" y="335" width="12" height="7" fill="#6a5a38"/>
+  <ellipse cx="380" cy="450" rx="11" ry="5" fill="#5a4a30"/>
+  <rect x="374" y="445" width="12" height="7" fill="#6a5a38"/>
+  <ellipse cx="500" cy="480" rx="10" ry="5" fill="#5a4a30"/>
+  <!-- Brush pile -->
+  <path d="M100,420 Q130,390 160,400 Q180,385 210,395 Q230,380 250,395 Q270,400 280,420 Q260,425 240,420 Q220,425 200,422 Q180,428 160,425 Q140,428 120,424Z" fill="#3a5a30" opacity="0.6"/>
+  <!-- Foreground dirt -->
+  <path d="M0,520 Q200,510 400,515 Q600,510 800,520 L800,600 L0,600Z" fill="#5a4a30" opacity="0.5"/>
+  <!-- Scattered debris -->
+  <line x1="300" y1="500" x2="340" y2="495" stroke="#4a3a20" stroke-width="3" opacity="0.5"/>
+  <line x1="450" y1="510" x2="480" y2="505" stroke="#4a3a20" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="480" x2="225" y2="475" stroke="#4a3a20" stroke-width="2.5" opacity="0.5"/>
+</svg>
